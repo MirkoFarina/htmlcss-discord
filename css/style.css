@@ -238,40 +238,67 @@ main .jumbotron .content-jumbotron p{
 /* /MAIN */
 
 footer{
-  background-color: chocolate;
+  background-color: #23272a;
   height: 600px;
-  text-align: center;
+  padding-top: 80px;
+  font-size: 12px;
 }
-
-
-
 
 footer .footer-top{
   display: flex;
-  background-color: cornflowerblue;
-  padding: 10px;
   flex-wrap: wrap;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #8ea1e1;
+  padding-bottom: 20px;
+}
+
+footer .footer-top li h3{
+  color: #8ea1e1;
+}
+
+footer .footer-top .column-social li h3{
+  font-size: 25px;
+}
+
+footer .footer-top .column-social li i{
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+footer .footer-top ul{
+  list-style: none;
+}
+
+footer .footer-top li{
+  padding-bottom: 15px;
+}
+
+footer .footer-top li a{
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-top li a:hover{
+  color: aqua;
 }
 
 footer .column-social{
   width: calc(100% / 3);
-  height: 200px;
-  background-color: cyan;
-  border: 1px solid black;
+}
+
+footer .column-social img{
+  width: 20px;
+  vertical-align: middle;
 }
 
 footer .column-footer{
   width: calc(100% / 6);
-  height: 200px;
-  background-color: cyan;
-  border: 1px solid black;
+  
 }
 
 footer .footer-bottom{
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  padding: 10px;
 }
 
 footer .footer-bottom .logo-footer{
