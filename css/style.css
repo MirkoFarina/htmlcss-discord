@@ -61,59 +61,90 @@ header a:hover{
 }
 
 header .button-accedi{
-  width: 70px;
   border-radius: 20px;
-  text-align: center;
   line-height: 40px;
   background-color: white;
   color: black;
+  padding: 0 15px;
 }
 /* /HEADER */
 
+/* MAIN */
 
+/* JUMBOTRON */
 main .jumbotron{
   height: 550px;
-  background-color: red;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: center;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  background-position: center;
 }
   
-
-
 main .jumbotron .content-jumbotron{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   max-width: 800px;
-  height: 330px;
-  background-color: blueviolet;
 }
 
-.content-jumbotron .text-jumbotron{
-  width: 700px;
-  height: 250px;
-  background-color: black;
-  
+main .jumbotron .content-jumbotron h1{
+  padding-bottom: 40px;
+  font-size: 50px;
+}
+
+main .jumbotron .content-jumbotron p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
 }
 
 .content-jumbotron .button-jumbotron{
   display: flex;
-  padding: 10px;
-  gap: 10px;
+  padding: 30px;
+  gap: 25px;
 }
   
 
 .content-jumbotron .button-jumbotron-1, .button-jumbotron-2{
-  width: 150px;
-  height: 50px;
-  background-color: brown;
-  border: 1px solid black;
+  border-radius: 30px;
+  padding: 15px 25px;
 }
+ 
+.button-jumbotron-1 a, .button-jumbotron-2 a{
+  text-decoration: none;
+}
+
+
+.content-jumbotron .button-jumbotron-1{
+  background-color: white;
+}
+
+.content-jumbotron .button-jumbotron-2{
+  background-color: #23272a;
+}
+
+.content-jumbotron .button-jumbotron-1 a{
+  color: black;
+}
+
+.content-jumbotron .button-jumbotron-1 a:hover, .content-jumbotron .button-jumbotron-2 a:hover{
+  color: #255ee9;
+}
+
+.content-jumbotron .button-jumbotron-2 a{
+  color: white;
+}
+
+.content-jumbotron .button-jumbotron-1 i{
+  padding: 0 5px;
+  font-size: 13px;
+}
+/* /JUMBOTRON */
 
 .section-row{
   background-color: aqua;
@@ -165,6 +196,7 @@ section .section-row-img, .section-row-text{
   height: 50px;
   background-color: rgb(239, 156, 13);
 }
+/* /MAIN */
 
 footer{
   background-color: chocolate;
