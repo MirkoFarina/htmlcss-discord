@@ -18,8 +18,19 @@ body{
   margin: 0 auto;
 }
 
+.wave{
+  display: flex;
+}
+.wave .wave-img{
+  opacity: 0.04;
+}
+
+.wave .wave-rotate{
+  transform: rotate(180deg);
+}
+
 .bg-grey{
-  background-color: #f6f6f6;
+  background-color: #f5f5f5;
 }
 
 /* HEADER */
